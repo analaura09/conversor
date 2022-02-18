@@ -42,5 +42,3 @@ eurbrl = round(num/euro, 3)
 argbrl = round(num/pesoArgentino,3)
 
 print("\n O valor em Dólar é",usdbrl,"\n O valor em Euro é",eurbrl, "\n O valor em Peso Argentino é",arg_str)
-
-
