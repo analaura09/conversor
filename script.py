@@ -12,8 +12,6 @@ print('')
 url = 'https://www.infomoney.com.br/ferramentas/cambio/'
 
 coletando_dados = requests.get(url)
-print("o status do codigo é ", coletando_dados.status_code)
-print("\n")
 soup = BeautifulSoup(coletando_dados.text,'lxml')
 
 #FILTRANDO PELA TAG TBODY
@@ -41,4 +39,4 @@ usdbrl = round(num/dolar,3)
 eurbrl = round(num/euro, 3) 
 argbrl = round(num/pesoArgentino,3)
 
-print("\n O valor em Dólar é",usdbrl,"\n O valor em Euro é",eurbrl, "\n O valor em Peso Argentino é",arg_str)
+print("\n O valor em Dólar é",usdbrl,"\n O valor em Euro é",eurbrl, "\n O valor em Peso Argentino é",argbrl)
