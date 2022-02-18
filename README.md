@@ -1,8 +1,8 @@
 # conversor
 Exercicio de avaliação da empresa Extrato Juridico
 
-*REQUIRIMENTOS*
--Python
--Requests
--Regex
--Beautiful Soup
+REQUERIMENTOS
+- Python
+- Requests
+- Regex
+- Beautiful Soup
